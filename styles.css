@@ -1,0 +1,142 @@
+html, body{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+nav ul{
+    display: flex;
+    margin-right: 100px;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul li{
+    margin: 10px 30px;
+    list-style: none;
+}
+.part1{
+    background-color: #7272AB;
+
+}
+.main-photo{
+    height: 480px;
+    width: 360px;
+}
+.hero-content{
+    display:flex;
+    justify-content:center;
+    padding: 70px;
+    column-gap: 4em;
+}
+
+.main{
+    margin-right: 1.9em;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 4.3em;
+    align-items: center;
+}
+.heading-2{
+   text-align: center;
+   font-size: 36px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.card{
+    margin: 0.7em;
+}
+.picture{
+    height: 200px;
+    outline: 5px solid #7899D4;
+    border-radius:15px;
+    width: 200px;
+}
+.part3{
+    padding-top: 1.5em;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #700548;
+    line-height: 1.9em;
+    color: white;
+    font-size: 36px;
+}
+b{
+    align-self: flex-end;
+    margin-right: 9.2em;
+}
+.part4{
+   height: 200px;
+   padding:40px;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+}
+.call-to-action{
+    background-color: #7899D4;
+    display: flex;
+    justify-content:space-around;
+    width: calc(100% - 40px);
+    height:200px;
+    align-items: center;
+    border-radius:10px;
+    color: #E5E7EB;
+    outline: 2px solid #700548;
+    outline-offset: -1.2em;
+}
+button{
+    align-self:center;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color:#7272AB;
+    color: #E5E7EB;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+li, .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+  border-radius: 10px;
+  font-size: 20px;
+  color: #E5E7EB;
+  background-color: #700548;
+  padding: 10px 34px;
+  display: inline-block;
+}
+.btn1{
+    border:#700548;
+}
+.btn2{
+    border: 3px solid #E5E7EB;
+}
+blockquote{
+    font-style: italic;
+}
+.poet-name{
+    text-align: center;
+}
